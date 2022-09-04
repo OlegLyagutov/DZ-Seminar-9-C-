@@ -24,7 +24,6 @@
 // M = 4; N = 8. -> 30
 
 // int M = Convert.ToInt32(Console.ReadLine());
-// //int N = int.Parse(Console.ReadLine());
 // int N = Convert.ToInt32(Console.ReadLine());
 // int Sum(int M, int N)
 // {
@@ -39,15 +38,16 @@
 
 // m = 2, n = 3 -> A(m,n) = 9
 
-int m = Convert.ToInt32(Console.ReadLine());
-//int N = int.Parse(Console.ReadLine());
-int n = Convert.ToInt32(Console.ReadLine());
-int Sum(int m, int n)
-{
-    if (m == n) return m;
-    return (m + Sum(m + 1, n));
-}
+// int m = Convert.ToInt32(Console.ReadLine());
+// int n = Convert.ToInt32(Console.ReadLine());
+// int A(int m, int n)
+// {
+//     if (m == 0) return n + 1;
+//     if (m > 0 && n == 0) return A(m-1, 1);
+//     if (m > 0 && n > 0) return A(m - 1, A(m, n - 1));
+//     return A(m, n);
+// }
 
-Console.WriteLine($"Сумма чисел от {m} до {n} равна: {Sum(M, N)}");
+// Console.WriteLine($"Функция Аккермана при {m} и {n} равна: {A(m, n)}");
 
 
